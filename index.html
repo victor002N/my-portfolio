@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        nav {
+            background: #0f172a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero {
+            background: #2563eb;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        button {
+            background: white;
+            color: #2563eb;
+            border: none;
+            border-radius: 6px;
+            padding: 12px 22px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0f172a;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <strong>MY PORTFOLIO</strong>
+    </nav>
+
+    <div class="hero">
+        <h1>Hello, Kenya!</h1>
+        <p>I'm learning to build websites with code.</p>
+        <button onclick="welcome()">Say Hello</button>
+    </div>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a beginner web developer learning HTML, CSS and JavaScript.</p>
+        <p>My goal is to create useful websites for people and businesses.</p>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+        <p>HTML — building website structure</p>
+        <p>CSS — designing websites</p>
+        <p>JavaScript — making websites interactive</p>
+    </section>
+
+    <footer>
+        My First Portfolio | Made in Kenya
+    </footer>
+
+    <script>
+        function welcome() {
+            alert("Karibu! Thanks for visiting my website.");
+        }
+    </script>
+</body>
+</html>
